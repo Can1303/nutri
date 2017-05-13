@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      header span {
+        color: #a8b2b7;
+      }
+      div {
+        background-color: red;
+        padding: 74px;
+        margin: 57px;
+        border-width: 18px;
+        border-style: solid;
+        border-color: yellow;
+        border: 18px solid yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="text-align: right;background-color: #11252F;">
+      <span>menu 1</span>
+      <span>menu 2</span>
+      <span>menu 3</span>
+      <span>menu 4</span>
+    </header>
+    <div onclick="clickme()">some text</div>
+    <script src="jquery.js"></script>
+    <script>
+      function clickme() {
+        $('header span').css('color','red');
+      }
+    </script>
+  </body>
+</html>
