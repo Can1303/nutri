@@ -1,0 +1,19 @@
+14/05/17
+--------
+รูปที่นำมาใช้เป็น icon หาได้จาก web free
+- http://www.flaticon.com/
+- https://www.iconfinder.com/
+
+เรื่องการจัดเรียง css ตามลำดับขั้น เราเรียกว่า selector สามารถอ่านเพิ่มเติมได้ที่
+ตัวอย่าง header img a { ... }
+- https://www.w3schools.com/cssref/css_selectors.asp
+
+ใน update ตัวใหม่จะมี css เรื่อง float ที่ค่อนข้างจะเป็นอะไรที่เข้าใจยากสักนิด สรุปมันเอาไว้ทำให้ element
+ลอยออกไปจาก layout แบบ default ที่เรียงจากซ้ายไปขวา บนลงล่างได้ ตัวอย่าง ในการใช้งาน
+1. ต้องการจะเอา 2 element อยู่บนบรรทัดเดียวกัน ตัวนึงชิดซ้าย อีกตัวชิดขวาสุด
+อ่านเพิ่มได้ที่ https://www.w3schools.com/css/css_float.asp
+
+style บางตัวเช่น .container .input-group ใช้ของ Bootstrap ที่เขาทำมาไว้ให้ เพื่อที่เราจะได้ง่าย
+ต่อการจัดการ layout element เช่น .container มันจะทำการเว้นระยะจากขอบซ้ายและขวาให้เลย,
+.input-group ก็เป็นการสร้าง input form ที่ให้ติดกับ ปุ่มกดค้นหาเลย
+อ่านเพิ่มเติม http://getbootstrap.com/css/#forms-inline

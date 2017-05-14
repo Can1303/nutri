@@ -2,31 +2,79 @@
 <html>
   <head>
     <style>
-      body {
-        margin: 0;
-        padding: 0;
+      .top-menu {
+        text-align: right;
+        background-color: #11252F;
       }
-      header span {
-        color: #a8b2b7;
+      header .top-menu a {
+        color: white;
+        font-size: 12px;
+        padding-left: 10px;
+        vertical-align: center;
       }
-      div {
-        background-color: red;
-        padding: 74px;
-        margin: 57px;
-        border-width: 18px;
-        border-style: solid;
-        border-color: yellow;
-        border: 18px solid yellow;
+      header .main-menu {
+        background-color: #183544;
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
+      header .main-menu img {
+        height: 30px;
+        margin-left: 20px;
+      }
+      header .main-menu .right-menu {
+        margin-top: 15px;
+      }
+      #site-logo {
+        height: 60px;
+      }
+      header .main-search {
+        display: inline-block;
+        margin-left: 50px;
+        width: 400px;
+      }
+      header .main-search input {
+        border: none;
+      }
+      header .main-search button {
+        background-color: #F36F36;
+        color: white;
+      }
+      .pull-right {
+        float: right;
+      }
+
     </style>
     <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <header style="text-align: right;background-color: #11252F;">
-      <span>menu 1</span>
-      <span>menu 2</span>
-      <span>menu 3</span>
-      <span>menu 4</span>
+    <header>
+      <div class="top-menu">
+        <div class="container">
+          <a href="#">menu 1</a>
+          <a href="#">menu 2</a>
+          <a href="#">menu 3</a>
+          <a href="#">menu 4</a>
+        </div>
+      </div>
+      <div class="main-menu">
+        <div class="container">
+          <img id="site-logo" src="assets/images/broccoli.png">
+          <div class="main-search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <button class="input-group-addon">GO</button>
+            </div>
+          </div>
+          <a href="#">
+            <img src="assets/images/cart.png">
+          </a>
+          <span class="pull-right right-menu">
+            <img src="assets/images/badge.png">
+            <img src="assets/images/currency.png">
+          </span>
+        </div>
+      </div>
+
     </header>
     <script src="libs/jquery/jquery.js"></script>
   </body>
