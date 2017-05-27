@@ -1,0 +1,140 @@
+<script>
+  // console.log("\"hello world\"")
+  // console.log('"hello world"')
+  // console.log(100 * 5.6)
+
+  // var PI = 3.14
+  // var SUN_IS_UP = 'east'
+
+  // var hello = 1.2
+  // var bangkokCityIsAwesome = 'hello'
+  // var firstLi = 4 * 100
+
+  // console.log(firstLi)
+
+  var sex = 'female';
+  console.log(sex)
+
+  if (sex == 'male') {
+    console.log('hello mister')
+  } else if (sex == 'female') {
+    console.log('hello miss')
+  } else {
+    console.log('hello others')
+  }
+
+  console.log('.......................')
+
+  switch (sex) {
+    case 'male': 
+      console.log('hello mister')
+      break;
+    case 'female': 
+      console.log('hello miss')
+      break;
+    default:
+      console.log('hello others')
+  }
+
+  console.log('........WHILE...............')
+
+  var number = 100;
+  while (number >= 0) {
+    console.log(number)
+    number = number - 1;
+    number -= 1;
+    number--;
+    --number;
+  }
+
+  console.log('........FOR...............')
+
+  for (var number = 100; number >= 0; number--){
+    console.log(number)
+  }
+
+  console.log('........--...............')
+
+  var test = 100;
+  if (--test == 99) {
+    console.log('-->', test)
+  }
+
+  var test = 100;
+  if (test-- == 99) {
+    console.log('-->', test)
+  }
+
+
+  console.log('........do while...............')
+
+  var test = 200;
+  do {
+    console.log('--->', test)
+  } while (test > 200)
+
+
+  console.log('--->', test)
+  while(test > 200) {
+    console.log('--->', test)
+  }
+
+  // test = test - 1;
+  // if (test == 99) { ....}
+
+  // if (test == 99) { ... }
+  // test = test -1;
+ 
+  var number = 0;
+  while (number <=100) {
+    console.log(number);
+    number++;
+  }
+
+  console.log('...........................')
+  var a = 'hello';
+  var b = a;
+  b = 200;
+  console.log(a);
+  console.log(b);
+
+  console.log('...........................')
+  var x = [1, 2, 'hello', 1.5]
+  console.log(x);
+  console.log(x[2], x[3]);
+  console.log('length:', x.length);
+
+  var g;
+  console.log(g);
+  if (g == undefined) {
+    console.log('yes!!');
+  }
+
+  for (var i = 0; i <= x.length - 1; i++) {
+    console.log('loop x', x[i]);
+  }
+
+  for (var i = 0; i < x.length; i++) {
+    console.log('loop x', x[i]);
+  }
+
+  var i = 0;
+  while (i < x.length) {
+    console.log('loop x', x[i]);
+    i++;
+  }
+
+  console.log('...........................')
+
+  x.forEach(function(item){
+    console.log('loop x', item);
+  });
+
+  for (index in x) {
+    console.log('loop x', x[index]);
+  }
+
+
+
+
+</script>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <ul id="ekk">
+    <li class="red">first 123</li>
+    <li>456</li>
+    <li class="red">789</li>
+    <li>000</li>
+  </ul>
+  <script>
+    var lis = document.getElementsByTagName('li');
+    var first_li = lis[0];
+    first_li.onclick = function() {
+      first_li.className = '';
+    };
+  </script>
+</body>
+</html>
